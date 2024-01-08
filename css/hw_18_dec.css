@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    background-color: rgb(59, 56, 56);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 50px 50px 100px;
+    grid-template-areas: 
+    "col1 col2 col2 col4 col4"
+    "col1 col7 col8 col8 col10"
+    "col11 col7 col8 col8 col10"
+    "col11 col17 col17 col19 col10";
+   
+    gap: 7px;
+    justify-content: center;
+    align-content: center;
+}
+.small-box3{
+    background-color: aqua;
+}
+.small-box1{
+    grid-area: col1;
+    background-color: brown;
+}
+.small-box2{
+    grid-area: col2;
+    background-color: aqua;
+}
+.small-box4{
+    grid-area: col4;
+    background-color: rgb(213,177,103)
+}
+.small-box8{
+    grid-area: col8;
+    background-color: aliceblue;
+}
+.small-box10{
+    grid-area: col10;
+    background-color: brown;
+}
+.small-box11{
+    grid-area: col11;
+    background-color: aliceblue;
+}
+.small-box7{
+    grid-area: col7;
+    background-color: rgb(213,177,103)
+}
+.small-box17{
+    grid-area: col17;
+    background-color: brown;
+}

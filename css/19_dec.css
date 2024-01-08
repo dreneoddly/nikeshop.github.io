@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: tes_animation ;
+    animation-timing-function: cubic-bezier(0.99, 0.75, 0, 0.93);
+    animation-duration: 1s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: ;
+}
+@keyframes tes_animation{
+    20%{
+        translate: 400px;
+        background-color: blue;
+        scale: 4;
+    }
+
+    100%{
+        translate: 0px;
+    }
+}
+rigthh now im feeling so jong dekkkk                                                          

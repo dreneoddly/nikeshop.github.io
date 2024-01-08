@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.big_order_box{
+    width: 60%;
+    margin: 50px auto;
+    height: 1000px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.order_img{
+    width: 55%;
+    top: 70px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+.mini_photo{
+    width: 15%;
+    height: 100%;
+    
+    padding: 5px;
+}
+.small_photo{
+    width: 100%;
+    height: 70px;
+    
+    margin-bottom: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.big_img{
+    width: 85%;
+    height: 100%;
+    
+    
+}
+.small_photo img{
+    width: 100%;
+    object-position: 0px ;
+}
+.big_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.order_info{
+    width: 40%;
+    height: 100%;
+}
+.order_info p:nth-child(1){
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.order_info p:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.order_info p:nth-child(3){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.box_color{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.color_shoes{
+    width: 19%;
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.color_shoes img{
+    width: 100%;
+}
+.order_info p:nth-child(5){
+    text-align: center;
+    margin: 15px auto;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+}
+.order_info p:nth-child(5) a{
+    color: black;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px auto;
+    background-color: black;
+    color: aliceblue;
+}
+.fav{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+}
+.order_info li{
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+.view{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+.shipping_down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    
+    margin-bottom: 10px;
+}
+.review{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    
+}
+
